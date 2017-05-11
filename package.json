@@ -20,6 +20,14 @@
     "lock",
     "sleep"
   ],
+  "rnpm": {
+    "android": {
+      "packageInstance": "new KCKeepAwakePackage()"
+    },
+    "ios": {
+      "project": "ios/KCKeepAwake.xcodeproj"
+    }
+  },
   "author": "Kyle Corbitt",
   "license": "MIT"
 }
